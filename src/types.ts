@@ -9,8 +9,8 @@ export interface Env {
 }
 
 export interface ChinaTrainTicket {
-  orderId: string | null;
-  index: number | null;
+  orderNumber: string | null;
+  sequence: number | null;
   buyer: string | null;
   departureTime: string;
   arrivalTime: string;
